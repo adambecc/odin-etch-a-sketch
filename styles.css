@@ -5,14 +5,17 @@ body {
     justify-content: center;
     min-height: 100vh;
     margin: 0;
+    background-color: #3B1C32;
 }
 
 #container {
     display: flex;
     flex-wrap: wrap;
-    width: 1000px;
-    height: 1000px;
+    width: 700px;
+    height: 700px;
     border: 1px solid black;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.5);
+    background-color: white;
 }
 
 .grid-square {
@@ -25,10 +28,21 @@ button {
     padding: 10px 20px;
     font-size: 16px;
     cursor: pointer;
+    border-radius: 20px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.5);
+    border-color: #A64D79;
+    background-color: #6A1E55;
+    color: white;
 }
 
 .grid-square {
-    border: 1px solid #ddd;
+    border: 1px solid lightgray;
     flex: 1 0 auto;
     box-sizing: border-box;
+}
+
+#title {
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bolder;
+    color: white;
 }
